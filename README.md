@@ -39,7 +39,7 @@ pip install git+https://github.com/openai/whisper.git
 
 ### 下載程式執行
 
-執行程式前請先確保麥克風能夠使用，中斷程式請輸入`ctrl+C`。
+執行程式前請先確保麥克風設定能夠，中斷程式請輸入`ctrl+C`。
 ```
 python real-time_asr_spkd.py
 ```
