@@ -5,8 +5,8 @@ This GitHub repository focuses on building a real-time multilingual speech recog
 ## 功能
 此專案的功能包括：
 
-- 實時多語言語音識別：透過 whisper 庫，我們能夠實時識別並轉譯多種語言的語音。
-- 語者區分：透過 diart 庫，我們能夠區分出語音中的不同語者。
+- 實時多語言語音識別：透過 whisper 庫，能夠自動辨使語言即時識別出該語言的語音。
+- 語者區分：透過 diart 庫，能夠區分出語音中的不同語者。
 
 ## 安裝方式
 ### 安裝 Diart 
@@ -36,5 +36,13 @@ Diart 是基於儲存在 huggingface hub 中的 pyannote.audio 模型。為了�
 ```
 pip install git+https://github.com/openai/whisper.git
 ```
+
+### 下載程式執行
+
+執行程式前請先確保麥克風能夠使用，中斷程式請輸入`ctrl+C`。
+```
+python real-time_asr_spkd.py
+```
+
 
 
