@@ -9,6 +9,20 @@ This GitHub repository focuses on building a real-time multilingual speech recog
 - 語者區分：透過 diart 庫，我們能夠區分出語音中的不同語者。
 
 ## 安裝方式
-1. Diart
+1. Diart [Diart](https://github.com/juanmc2005/diart#-installation)
+  1. 建立環境
+  ```
+  conda create -n diart python=3.8
+  conda activate diart
+  ```
+  2. 安裝 audio libraries
+  ```
+  conda install portaudio pysoundfile ffmpeg -c conda-forge
+  ```
+  3. 安裝 diart
+  ```
+  pip install diart
+  ```
+2. 登入pyannote
 3. Whisper
 
