@@ -24,7 +24,7 @@ This GitHub repository focuses on building a real-time multilingual speech recog
   ```
   pip install diart
   ```
-### 登入pyannote
+### 登入 pyannote 取得 access token
 [[get access to pyannote]](https://github.com/juanmc2005/diart#get-access-to--pyannote-models)  
 Diart 是基於儲存在 huggingface hub 中的 pyannote.audio 模型。為了讓 diart 能使用這些模型，你需要按照以下步驟操作：
   1. [接受用戶條款](https://huggingface.co/pyannote/segmentation)以使用 pyannote/segmentation 模型 
