@@ -9,7 +9,8 @@ This GitHub repository focuses on building a real-time multilingual speech recog
 - 語者區分：透過 diart 庫，我們能夠區分出語音中的不同語者。
 
 ## 安裝方式
-1. Diart [Diart](https://github.com/juanmc2005/diart#-installation)
+### 安裝 Diart 
+[[diart]](https://github.com/juanmc2005/diart#-installation)
   1. 建立環境
   ```
   conda create -n diart python=3.8
@@ -23,6 +24,17 @@ This GitHub repository focuses on building a real-time multilingual speech recog
   ```
   pip install diart
   ```
-2. 登入pyannote
-3. Whisper
+### 登入pyannote
+[[get access to pyannote]](https://github.com/juanmc2005/diart#get-access-to--pyannote-models)  
+Diart 是基於儲存在 huggingface hub 中的 pyannote.audio 模型。為了讓 diart 能使用這些模型，你需要按照以下步驟操作：
+  1. [接受用戶條款](https://huggingface.co/pyannote/segmentation)以使用 pyannote/segmentation 模型 
+  2. [接受用戶條款](https://huggingface.co/pyannote/embedding)以使用 pyannote/embedding 模型
+  3. 安裝 [huggingface-cli](https://huggingface.co/docs/huggingface_hub/quick-start#install-the-hub-library) 並用你的用戶訪問令牌(access token) [登錄](https://huggingface.co/docs/huggingface_hub/quick-start#login)（或者在 diart 的命令列介面或 API 中手動提供）。
+
+### 安裝 Whisper
+[[whisper]](https://github.com/openai/whisper#setup)
+```
+pip install git+https://github.com/openai/whisper.git
+```
+
 
