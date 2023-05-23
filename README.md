@@ -10,7 +10,7 @@ This GitHub repository focuses on building a real-time multilingual speech recog
 
 ## 安裝方式
 ### 安裝 Diart 
-[[diart]](https://github.com/juanmc2005/diart#-installation)
+[[diart installation]](https://github.com/juanmc2005/diart#-installation)
   1. 建立環境
   ```
   conda create -n diart python=3.8
@@ -32,7 +32,7 @@ Diart 是基於儲存在 huggingface hub 中的 pyannote.audio 模型。為了�
   3. 安裝 [huggingface-cli](https://huggingface.co/docs/huggingface_hub/quick-start#install-the-hub-library) 並用你的用戶訪問令牌(access token) [登錄](https://huggingface.co/docs/huggingface_hub/quick-start#login)（或者在 diart 的命令列介面或 API 中手動提供）。
 
 ### 安裝 Whisper
-[[whisper]](https://github.com/openai/whisper#setup)
+[[whisper setup]](https://github.com/openai/whisper#setup)
 ```
 pip install git+https://github.com/openai/whisper.git
 ```
