@@ -2,6 +2,8 @@
 即時多語言語音辨識與語者分辨的GitHub儲存庫。實現高效準確的語音辨識，同時識別和分離音頻流中的個別說話者。  
 This GitHub repository focuses on building a real-time multilingual speech recognition system with speaker diarization capabilities. The project aims to achieve accurate and efficient speech recognition while simultaneously identifying and separating individual speakers in the audio stream.
 
+
+
 ## 功能
 此專案的功能包括：
 
@@ -20,9 +22,9 @@ This GitHub repository focuses on building a real-time multilingual speech recog
   ```
   conda install portaudio pysoundfile ffmpeg -c conda-forge
   ```
-  3. 安裝 diart
+  3. 安裝 diart (v0.7)
   ```
-  pip install diart
+  pip install diart==0.7
   ```
 ### 登入 pyannote 取得 access token
 [[get access to pyannote]](https://github.com/juanmc2005/diart#get-access-to--pyannote-models)  
