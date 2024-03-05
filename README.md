@@ -1,6 +1,7 @@
 # 即時多語言語音辨識與語者標記
 
 使用 Openai Whisper 模型與 Diart 即時語者分段標記模型(Speaker diarization)，實作即時多語言語音辨識。
+
 We use the Openai's Whisper model and Diart real-time speaker diarization model to implement the real-time ASR and speaker diarization.
 
 # Demo
