@@ -1,10 +1,10 @@
 # 即時多語言語音辨識與語者標記
 
-使用 Openai Whisper 模型與 Diart 即時語者分段標記模型(Speaker diarization)，實作即時多語言語音辨識。
+讀取麥克風聲音，即時辨識語音內容並同時以不同顏色區分不同人的語音。
 
-We use the Openai's Whisper model and Diart real-time speaker diarization model to implement the real-time ASR and speaker diarization.
+Reading microphone sound, recognizing speech content in real-time, and simultaneously distinguishing voices of different people by different colors.
 
-# Demo
+## Demo
 
 ![demo](rt_asr_sd_demo.gif)
 
@@ -47,7 +47,7 @@ pip install git+https://github.com/openai/whisper.git
 
 執行程式前請先確保麥克風設定能夠被存取，中斷程式請輸入`ctrl+C`。
 ```
-python real-time_asr_spkd.py
+python rt_asr_diarize.py
 ```
 
 
