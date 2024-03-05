@@ -1,6 +1,7 @@
 # 即時多語言語音辨識與語者標記
-即時多語言語音辨識與語者分辨的GitHub儲存庫。實現高效準確的語音辨識，同時識別和分離音頻流中的個別說話者。  
-This GitHub repository focuses on building a real-time multilingual speech recognition system with speaker diarization capabilities. The project aims to achieve accurate and efficient speech recognition while simultaneously identifying and separating individual speakers in the audio stream.
+
+使用 Openai Whisper 模型與 Diart 即時語者分段標記模型(Speaker diarization)，實作即時多語言語音辨識。
+We use the Openai's Whisper model and Diart real-time speaker diarization model to implement the real-time ASR and speaker diarization.
 
 # Demo
 
